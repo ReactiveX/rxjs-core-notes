@@ -1,4 +1,4 @@
-# November 8 ([discuss](https://github.com/ReactiveX/rxjs-core-notes/pull/3))
+# November 8 ([discuss](https://github.com/ReactiveX/rxjs-core-notes/pull/4))
 
 ### Attendees
 
