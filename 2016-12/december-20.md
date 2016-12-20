@@ -10,7 +10,7 @@
 
 We originally were thinking of having three branches: **master**, **minor**, **patch**, but after discussing decided on two branches: **master** and **next**
 
-- **master: anything that can be released in a minor/patch bump, but no breaking changes. Most PRs will be merged into here.
+- **master**: anything that can be released in a minor/patch bump, but no breaking changes. Most PRs will be merged into here.
 - **next**: everything from **master** (except incompatible changes) and breaking changes or major rewrites. This branch tracks the next major release, e.g. 6.0. We will manually rebase **master** into here, before every breaking change PR merge.
 
 ## VirtualTimeScheduler API additions
