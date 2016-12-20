@@ -33,7 +33,17 @@ This is a rather confusing problem, so don't be surprised if it seems unclear (o
 
 We will continue to receive guidance from TC39, but we feel strongly they will move to adopt error trapping (like Promises) so we may look to changing this for v6 or v7. We would still provide a similar mechanism to `unhandledrejection` events as well as still still having the error show up in the console for debugging.
 
-# Documentation
+## Failure handling operators
+
+Unrelated to the error trapping behavior described above, we discussed the potential for supporting other error handling strategies. The [failsafe](https://github.com/jhalterman/failsafe) library for Java has a lot of inspiration for us to look towards.
+
+There are many policies, max retries, jitter, circuit breakers, etc. Many of them are very non-trivial for most people to correctly implement on their own, like exponential backoff.
+
+#### Decisions
+
+@mattpodwysocki will continue researching this. We might consider supporting a generic "retry policy" API (like failsafe) but not including the policies themselves in core, instead in an companion library. We're not yet ready to commit to anything.
+ 
+## Documentation
 
 Anyone have suggested strategies to bring it all up to date and keep it that way?
 
@@ -41,13 +51,13 @@ Anyone have suggested strategies to bring it all up to date and keep it that way
 
 We will commit to enforcing that any new features must be documented. To entice contributors to document existing APIs will be considering some rewards.
 
-# Review PRs/Issues
+## Review PRs/Issues
 
 * We're looking into adding static versions of mergeAll/concatAll/etc operators
 * Fix groupBy to dispose of outer subscription [#2201](https://github.com/ReactiveX/rxjs/pull/2201)
   * We're not confident to merge this without a test. Assigned: @blesh
-* Add join/groupJoin operators [#2194](https://github.com/ReactiveX/rxjs/pull/2194)
-  * Aren't frequently used, but are hard to implement for users. Growing number of node.js users of RxJS means we would like to include them but want to release them together.
+* Join pattern operators like join/groupJoin/when/etc [#2194](https://github.com/ReactiveX/rxjs/pull/2194)
+  * Aren't frequently used, but are hard to implement for users. Growing number of node.js users of RxJS means we'll consider including them but want to release them together.
 * Cancel scheduled timeout work, if no longer needed [#2135](https://github.com/ReactiveX/rxjs/pull/2135)
 	* Needs comments on why we're using lift this way, also remove npm script changes. Assigned: @jayphelps
 
