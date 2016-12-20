@@ -1,3 +1,5 @@
+# December 20, 2016
+
 ### Agenda
 
 - Discuss versioning strategy
@@ -13,10 +15,5 @@
 - PR reviews
 
 ### Attendees
-
-???
-
-
-### Notes
 
 ???
