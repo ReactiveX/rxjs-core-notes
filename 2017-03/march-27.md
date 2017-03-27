@@ -1,4 +1,4 @@
-# January 30th, 2017 ([discuss](https://github.com/ReactiveX/rxjs-core-notes/pull/8))
+#March 29th, 2017 ([discuss](https://github.com/ReactiveX/rxjs-core-notes/pull/8))
 
 ### Attendees
 
