@@ -24,7 +24,9 @@ The idea here is to update RxJS 5 to include all operators as higher-order funct
 
 [@david-driscoll](https://github.com/david-driscoll) has a counter-proposal involving a more "pipeable" design to accommodate TypeScript type inference. In this design operators would be implemented with the source observable as the first argument.
 
-The outcome here is that @benlesh will talk to folks at Google (who really want this) and reach out to the TypeScript team to see if we can't get this resolved on the TypeScript side.
+It was agreed that the ideal solution would be to use the higher-order lettable functions, and just have TypeScript work with smarter type inference for arguments provided via higher-order functions.
+
+@benlesh will talk to folks at Google (who really want this) and reach out to the TypeScript team to see if we can't get this resolved on the TypeScript side.
 
 ### Unifying AJAX: Both Angular and RxJS have an Observable-based implementation of AJAX, we should unify those into one framework-agnostic implementation
 
