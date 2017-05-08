@@ -2,7 +2,7 @@
 
 ### Attendees
 
-* [@blesh](https://github.com/blesh)
+* [@benlesh](https://github.com/benlesh)
 * [@kwonoj](https://github.com/kwonoj)
 * [@david-driscoll](https://github.com/david-driscoll)
 
@@ -22,6 +22,8 @@ The idea here is to update RxJS 5 to include all operators as higher-order funct
  - TypeScript does not infer types through this sort of chaining.
  - Yet another way for people to use RxJS
 
+[@david-driscoll](https://github.com/david-driscoll) has a counter-proposal involving a more "pipeable" design to accommodate TypeScript type inference. In this design operators would be implemented with the source observable as the first argument.
+
 The outcome here is that @benlesh will talk to folks at Google (who really want this) and reach out to the TypeScript team to see if we can't get this resolved on the TypeScript side.
 
 ### Unifying AJAX: Both Angular and RxJS have an Observable-based implementation of AJAX, we should unify those into one framework-agnostic implementation
@@ -30,7 +32,7 @@ Ideally this will reduce confusion for Angular users. Also it should result in a
 
 Perhaps we can also move the `WebSocketSubject` to a nuetral space and make it easier to use with Angular.
 
-@benlesh will work with the Angular team to see what we can work out.
+[@benlesh](https://github.com/benlesh) will work with the Angular team to see what we can work out.
 
 ### Outstanding Bugs/Issues
 
@@ -42,7 +44,7 @@ Current direction is that we want to aim for reducing the size of Rx's footprint
 
 ### T-Rx
 
-@benlesh showed off work on a private prototype of RxJS that weighs in at around 3k minified and gzipped. It has most if not all updates in it that we want to introduce to RxJS over the long term. This will remain in a private repository for now, as it's far too alpha for anyone to be using.
+[@benlesh](https://github.com/benlesh) showed off work on a private prototype of RxJS that weighs in at around 3k minified and gzipped. It has most if not all updates in it that we want to introduce to RxJS over the long term. This will remain in a private repository for now, as it's far too alpha for anyone to be using.
 
 One thought is that once it's ready to be alpha'd properly (we have current tests passing on it) we can move it over to a branch on the RxJS main repository, and start some concurrent development between it and current Rx. Another approach would be to try to steer the current repository in that direction, however that would involve a few moments of extremely difficult refactors, mostly around schedulers and the like. Final strategy TBD.
 
