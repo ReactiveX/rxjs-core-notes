@@ -8,68 +8,30 @@
 * [@xlozinguez](http://github.com/xlozinguez)
 * [@jasonaden](http://github.com/jasonaden)
 
-### Welcome & Ongoing Meetings
+### Items Discussed
 
-* Discuss ongoing / how to contribute
-  * Contribute by looking at the issues and submitting PRs! Super easy. 
-  * Create new issues that you feel like will improve the docs.
-  * Tracy is also available if you need ideas on how to contribute.
-* For the first few months - Every other Wednesday at 930am PST. After that, we will move to a monthly meeting. We are very active in github in the issues so feel free to chat.
+* Open PRs
+  * Anyone is able to review PRs without having write access to the repo - and we are greatly looking for folks to contribute more in this area.
 
+* Translations
+  * Translations seem to be what people are very excited about with the docs.
+  * Nik's company Valor has a PR open for using ngx-translate - [#144](https://github.com/ReactiveX/rxjs-docs/pull/144) it's in progress.
+  * In discussions in with Ben Lesh, agreed that we should just go with the majority from the next meeting, which no one had opinions against ngx-translate.
+  * Currently proto is only for russian & english - but can add more. 
+  * Stored in TS files - but can move to JSON files if applicable.
+  * Xavier Lozinguez mentioned he was interested in helping French.
+  * Dan Arias mentioned he was interested in helping Spanish.
 
-//
+* Helping with framework content
+  * Dan Arias is interested in helping create examples around React, Angular, Node
+  * He is mainly interestd in helping create real world examples with Angular
+  * Will start creating a getting started guide for Angular
+  * Jason Aden is working on a getting started with Observables for the RxJS docs too which we may be able to point to.
+  * Xavier pointed out the stencil docs as great docs to reference. https://stenciljs.com/docs/intro/ & https://stenciljs.com/docs/getting-started
 
-Implemented Ngx translate - only works for russian and english - only an hour or two to . 
-
-Stored in ts files - but can move to json files if framework is applicable.
-
-Can we do it in MD?
-
-Ashwin/Sumit
-
-Xavier can help review PRs
-
-Xavier - french
-
-Dan helping translate docs to spanish
-
-Dan always helps wanting to create examples around react/angular/node
-Creating angular content 
-Creating real world examples - Angular track
-
-Getting started with RxJS using Angular
-
-Jason - he create a basic undersatnding of observables for angular - and the level of undersatnding is people using the library - undersatnding observables as a type. - he is drafting.
-
-gets into basics of using observables with http and router and forms.
-
-https://stenciljs.com/docs/intro/
-
-https://stenciljs.com/docs/getting-started
-
-What operators do i need to know for Angular?
-
-plan was to talk about most commonly used operators
-
-he'll be releasing draft on by dec 1 - 
-
-creating an observable from scratch
-
-send jason the rxworkshop repo
-
-- Current status of the repo
-- What do we need to get to beta launch of site?
-- Make a decision on translation strategy of docs
-- What can we do better?
-- Other things anyone wants to address
-
-
-
-
-
-
-
-### How Much Do I Have to Commit?
-
-* As much as you like! Absolutely no obligation to do anything, just do what you can, when you can and we greatly appreciate the help.
-
+* Beta launch of site
+  * Need to discuss with others on beta launch of site
+  
+* Action Items
+  * Tracy to discuss beta launch of site with others
+  * Getting ngx-translate to a place of launch 
