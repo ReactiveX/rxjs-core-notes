@@ -3,15 +3,15 @@
 ### Attendees
 
 * [@ladyleet](http://github.com/ladyleet)
-* [@benlesh] (http://github.com/benlesh)
-* [@kwonoj] (http://github.com/kwonoj)
-* [@btroncone] (http://github.com/btroncone)
-* [@only1mranderson] (http://github.com/only1mranderson)
-* [@ashwin-sureshkumar] (http://github.com/ashwin-sureshkumar)
-* [@necoline] (http://github.com/necoline)
-* [@knittingcodemonkey] (http://github.com/knittingcodemonkey)
-* [@mustafamg] (http://github.com/mustafamg)
-* [@valorkin] (http://github.com/valorkin)
+* [@benlesh](http://github.com/benlesh)
+* [@kwonoj](http://github.com/kwonoj)
+* [@btroncone](http://github.com/btroncone)
+* [@only1mranderson](http://github.com/only1mranderson)
+* [@ashwin-sureshkumar](http://github.com/ashwin-sureshkumar)
+* [@necoline](http://github.com/necoline)
+* [@knittingcodemonkey](http://github.com/knittingcodemonkey)
+* [@mustafamg](http://github.com/mustafamg)
+* [@valorkin](http://github.com/valorkin)
 
 ### Items Discussed
 
