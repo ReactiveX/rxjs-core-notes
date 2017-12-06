@@ -11,3 +11,10 @@
 - Rename `mergeMap` to `flatMap`? 
 - Progress in docs effort (@ladyleet if she can attend)
 - WHATWG Observable effort and alignment
+
+## Attendees
+
+[Ben Lesh](https://github.com/benlesh)
+[Tracy Lee](https://github.com/ladyleet)
+
+Brief discussion was had, but nothing important decided due to lack of attendance.
