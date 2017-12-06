@@ -14,7 +14,7 @@
 
 ## Attendees
 
-[Ben Lesh](https://github.com/benlesh)
-[Tracy Lee](https://github.com/ladyleet)
+- [Ben Lesh](https://github.com/benlesh)
+- [Tracy Lee](https://github.com/ladyleet)
 
 Brief discussion was had, but nothing important decided due to lack of attendance.
