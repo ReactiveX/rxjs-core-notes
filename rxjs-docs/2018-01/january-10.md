@@ -1,68 +1,38 @@
-RxJS core team notes
-
-//
-Followup OJ on Travis
-Firebase unable to deploy - need to figure out firebase apps
-Update on PR for to include samples for angular and react
-* will bring in more contributors in different frameworks
-Copy over explanations from main docs
-Ping Dmitriy about translate PR and jsdoc PR
-Create your own operator adventure added
-Expand navigation ot include intros
-Contributors to note - Hardik - Jan Niklas
-Help people rebase so there are no changes
-We need a UX designer! Ask Dmitriy
-Jen can help with coming from a none rxjs perspective
-Tracy to add to Companies page
-Versioning - thoughts about versioning?
-
-In attendance
-Ashwin Sureshkumar
-Brian Troncone
-Jen Luker
-
-1. Get the beta version and launch to get more OSS support
-2. Get more contributors 
-3. Getting translations
-4. JSDOC
-5. Monorepo for RxJS
-6. Get more contributors for RxJS core 
-
-//
-
-
-# December 13, 2017 Docs Meeting
+# January 10, 2018 Docs Meeting
 
 ### Attendees
 
 * [Tracy Lee](http://github.com/ladyleet)
-* [Jen Luker](http://github.com/knittingcodemonkey)
 * [Ashwin Sureshkumar](http://github.com/ashwin-sureshkumar)
-* [Sumit Arora](http://github.com/sumitarora)
+* [Jen Luker](http://github.com/knittingcodemonkey)
+* [Brian Troncone](http://github.com/btroncone)
 
 ### Items Discussed
 
-* Launching of site
-  * Ready to launch - Ashwin and Sumit to coordinate and hopefully get that beta launch by 12/18/17! (Crossing fingers)
-  * URL determined: rxjs-beta-docs.firebaseapp.com
-  * Jen is going through final review today.
+* Including Angular & React & other framework examples in docs
+  * Brian gave update on PR for to include samples for Angular and React
+  * Agree it is a good thing and will bring in more contributors in different frameworks
 
-* Open PRs
-  * We have been asking a lot of people to rebase - but approver/merger can do this with simple one page files so we don't hold up the merge.
+* Misc items & action items
+  * Followup OJ on Travis
+  * Firebase unable to deploy - need to figure out firebase apps
+  * Ping Dmitriy about translate PR and jsdoc PR
+  * Create your own operator adventure should be kept
+  * Expand navigation to include intros
+  * Write contribs should help people rebase if we can to get PRs merged in faster
+  * We need a UX designer! Ask Dmitriy
+  * Jen can help with coming from a none rxjs perspective to review some of the docs
+  * Tracy to add to Companies page
+  * Some light discuss around versioning
 
-* Master firebase account?
-  * Tracy to create and provide logins for team.
+* Contributors to note - 
+  * Hardik
+  * Jan Niklas
 
-* New contributors
-  * Tracy doing a push once the beta site is launched for new contributors.
-  * Mentioned that we could use a designer on our team.
-
-* A11y findings
-  * Jen is pretty happy she has mainly found a few form fields missing labels & images missing alt tags.
-  * Main concern was jsbin - getting out of escape key 
-
-* jsdoc integration 
-  * Dmitriy from Valor is working on it
-  
-* Translation PR
-  * PR still waiting to be completed
+* Tracy shard some of the goals for RxJS docs project 2018 and how RxJS learning team could help RxJS in general
+  * Get the beta version and launch to get more OSS support
+  * Get more contributors for RxJS docs
+  * Getting translations done
+  * JSDOC done
+  * Monorepo for RxJS - this will happen in 2018 sometime
+  * Get more contributors for RxJS core 
