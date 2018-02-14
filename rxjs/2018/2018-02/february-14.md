@@ -1,12 +1,10 @@
-# Meeting Notes January 31, 2018
+# Meeting Notes February 14, 2018
 
 ## Attendees
 
 [Ben Lesh](https://github.com/benlesh)
 [OJ Kwon](https://github.com/kwonoj)
-[David Driscoll](http://github.com/david-driscoll)
 [Tracy Lee](http://github.com/ladyleet)
-[Ashwin Sureshkumar](http://github.com/ashwin-sureshkumar)
 
 ## Discussed
 
