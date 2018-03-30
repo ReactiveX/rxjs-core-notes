@@ -6,7 +6,7 @@
 * [Ben Lesh](http://github.com/benlesh)
 * [Ashwin Sureshkumar](http://github.com/ashwin-sureshkumar)
 * [Pete Bacon Darwin](http://github.com/petebacondarwin)
-* [Brian Troncone](http://github.com/knittingcodemonkey)
+* [Brian Troncone](http://github.com/btroncone)
 * [Jan-Niklas Wortmann](http://github.com/JWO719)
 
 ### Items Discussed
