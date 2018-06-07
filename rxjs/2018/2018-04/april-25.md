@@ -6,7 +6,6 @@
 [Tracy Lee](http://github.com/ladyleet)
 [David Driscoll](https://github.com/david-driscoll)
 
-
 ## Discussed
 
 * RxJS 6 released 
